@@ -1,0 +1,159 @@
+body
+{
+    background-color:rgba(255, 255, 255, 0.425);
+    color: #333;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-top: 5px !important;
+    border-radius:20px;
+    border: solid 2.5px #333;
+    
+}
+
+
+header
+{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title
+{
+    color:rgb(11, 14, 219);
+    flex-direction: column;
+    line-height: 10px;
+}
+
+#linha
+{
+    background-color: #333;
+    height: 2px;
+   
+}
+
+li
+{
+    font-weight: 800;
+    display: inline-block;
+    margin: 20px;
+}
+
+a
+{
+    font-weight: 1000px;
+    color:  #333;
+}
+
+a:hover
+{
+    color: #9e0505;
+    transition: 0.3s all;
+}
+
+#contato-btn
+{
+    border: 2px solid #9e0505;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#contato-btn:hover
+{
+    background-color: #9e0505;
+    color:  rgba(255, 255, 255, 0.842);
+}
+#segundaParte
+{
+    margin-left: 30px;
+    position: relative;
+}
+
+h1
+{
+    font-weight: 200;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2
+{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span
+{
+    color: rgb(11, 14, 219);
+}
+
+p
+{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img
+{
+    margin-left: 15%;
+    width: 580px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form [type="submit"]
+{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(11, 14, 219);
+    color:  rgba(255, 255, 255, 0.842);
+    font-weight: bold;
+}
+form [type="submit"]:hover
+{
+    cursor: pointer;
+}
+
+input
+{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: solid rgb(11, 14, 219) 3px;
+    
+    font-size: 15px;
+}
+
+aside
+{
+    border: solid  rgb(11, 14, 219) 1.95px;
+    padding: 25px ;
+    border-radius:20px;
+    box-shadow: 0.75rem 1rem 1rem rgba(11, 14, 219, 0.61);
+}
+
+#imageLog
+{
+    width: 30px;
+    position: absolute;
+    left:10%;
+    top: 6%;
+
+}
